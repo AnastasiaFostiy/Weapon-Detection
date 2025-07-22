@@ -1,0 +1,82 @@
+2025-07-22 15:16:49,068 [INFO] Started server process [61672]
+2025-07-22 15:16:49,068 [INFO] Waiting for application startup.
+2025-07-22 15:16:49,069 [INFO] Server starting...
+2025-07-22 15:16:49,081 [INFO] Model compilation within worker processes started...
+2025-07-22 15:16:49,144 [INFO] Application startup complete.
+2025-07-22 15:16:49,152 [INFO] Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-07-22 15:16:59,301 [INFO] Received file: vid.mov
+2025-07-22 15:17:14,254 [INFO] PID=61678 filename=vid.mov result: ['Объект обнаружен хотя бы в одном кадре']
+2025-07-22 15:17:14,482 [WARNING] IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (2880, 1800) to (2880, 1808) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+2025-07-22 15:17:15,345 [INFO] 127.0.0.1:50790 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:17:26,217 [INFO] Received file: Снимок экрана 2025-07-21 в 16.37.32.png
+2025-07-22 15:17:30,154 [INFO] PID=61680 filename=Снимок экрана 2025-07-21 в 16.37.32.png result: ['- Handgun с уверенностью 0.93']
+2025-07-22 15:17:30,253 [INFO] 127.0.0.1:50791 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:17:39,693 [INFO] Received file: handgun.jpg
+2025-07-22 15:17:43,738 [INFO] PID=61681 filename=handgun.jpg result: ['- Knife с уверенностью 0.28']
+2025-07-22 15:17:43,742 [INFO] 127.0.0.1:50795 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:17:50,981 [INFO] Received file: try_handgun.jpg
+2025-07-22 15:17:54,450 [INFO] PID=61679 filename=try_handgun.jpg result: ['- Knife с уверенностью 0.36']
+2025-07-22 15:17:54,460 [INFO] 127.0.0.1:50800 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:18:09,943 [INFO] Received file: handgun8.jpg
+2025-07-22 15:18:11,176 [INFO] PID=61678 filename=handgun8.jpg result: ['- Handgun с уверенностью 0.75', '- Handgun с уверенностью 0.70', '- Handgun с уверенностью 0.58']
+2025-07-22 15:18:11,184 [INFO] 127.0.0.1:50803 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:18:26,277 [INFO] Received file: handgun2.webp
+2025-07-22 15:18:27,917 [INFO] PID=61680 filename=handgun2.webp result: ['- Handgun с уверенностью 0.81']
+2025-07-22 15:18:27,936 [INFO] 127.0.0.1:50806 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:18:36,032 [INFO] Received file: handgun5.jpg
+2025-07-22 15:18:37,801 [INFO] PID=61681 filename=handgun5.jpg result: ['- Handgun с уверенностью 0.94', '- Handgun с уверенностью 0.90', '- Handgun с уверенностью 0.32']
+2025-07-22 15:18:37,842 [INFO] 127.0.0.1:50810 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:18:43,002 [INFO] Received file: knife1.jpg
+2025-07-22 15:18:44,348 [INFO] PID=61679 filename=knife1.jpg result: ['- Knife с уверенностью 0.50']
+2025-07-22 15:18:44,371 [INFO] 127.0.0.1:50815 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:19:00,852 [INFO] Received file: handgun1.avif
+2025-07-22 15:19:00,853 [ERROR] Uploaded image could not be decoded
+2025-07-22 15:19:00,854 [INFO] 127.0.0.1:50818 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:19:22,540 [INFO] Received file: archive.zip
+2025-07-22 15:19:22,541 [WARNING] Invalid file type uploaded: application/zip
+2025-07-22 15:19:22,575 [INFO] 127.0.0.1:50821 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:19:32,117 [INFO] Received file: Снимок экрана 2024-12-27 в 12.48.53.png
+2025-07-22 15:19:33,581 [INFO] PID=61678 filename=Снимок экрана 2024-12-27 в 12.48.53.png result: ['Классы не обнаружены']
+2025-07-22 15:19:33,670 [INFO] 127.0.0.1:50823 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:19:44,662 [INFO] Received file: arms1.jpg
+2025-07-22 15:19:45,822 [INFO] PID=61680 filename=arms1.jpg result: ['- Handgun с уверенностью 0.29']
+2025-07-22 15:19:45,840 [INFO] 127.0.0.1:50826 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:19:51,749 [INFO] Shutting down
+2025-07-22 15:19:51,850 [INFO] Waiting for application shutdown.
+2025-07-22 15:19:52,841 [INFO] Process pool shutdown
+2025-07-22 15:19:52,841 [INFO] Application shutdown complete.
+2025-07-22 15:19:52,841 [INFO] Finished server process [61672]
+2025-07-22 15:23:39,987 [INFO] Started server process [62185]
+2025-07-22 15:23:39,988 [INFO] Waiting for application startup.
+2025-07-22 15:23:39,988 [INFO] Server starting...
+2025-07-22 15:23:40,005 [INFO] Model compilation within worker processes started...
+2025-07-22 15:23:40,089 [INFO] Application startup complete.
+2025-07-22 15:23:40,095 [INFO] Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-07-22 15:23:49,992 [INFO] 127.0.0.1:50854 - "GET / HTTP/1.1" 200
+2025-07-22 15:23:56,822 [INFO] Received file: arms2.jpg
+2025-07-22 15:24:02,431 [INFO] PID=62194 filename=arms2.jpg result: ['Классы не обнаружены']
+2025-07-22 15:24:02,459 [INFO] 127.0.0.1:50857 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:24:10,183 [INFO] Received file: fight2.jpg
+2025-07-22 15:24:14,590 [INFO] PID=62193 filename=fight2.jpg result: ['- Knife с уверенностью 0.88']
+2025-07-22 15:24:14,614 [INFO] 127.0.0.1:50858 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:24:20,113 [INFO] Received file: knife.webp
+2025-07-22 15:24:24,097 [INFO] PID=62195 filename=knife.webp result: ['- Knife с уверенностью 0.49', '- Handgun с уверенностью 0.27']
+2025-07-22 15:24:24,114 [INFO] 127.0.0.1:50862 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:24:38,487 [INFO] Received file: handgun5.jpg
+2025-07-22 15:24:42,965 [INFO] PID=62192 filename=handgun5.jpg result: ['- Handgun с уверенностью 0.94', '- Handgun с уверенностью 0.90', '- Handgun с уверенностью 0.32']
+2025-07-22 15:24:42,999 [INFO] 127.0.0.1:50867 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:25:07,939 [INFO] Received file: try_handgun.jpg
+2025-07-22 15:25:08,926 [INFO] PID=62194 filename=try_handgun.jpg result: ['- Knife с уверенностью 0.36']
+2025-07-22 15:25:08,932 [INFO] 127.0.0.1:50870 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:25:15,639 [INFO] Received file: vid.mov
+2025-07-22 15:25:27,549 [INFO] PID=62193 filename=vid.mov result: ['Объект обнаружен хотя бы в одном кадре']
+2025-07-22 15:25:27,916 [WARNING] IMAGEIO FFMPEG_WRITER WARNING: input image is not divisible by macro_block_size=16, resizing from (2880, 1800) to (2880, 1808) to ensure video compatibility with most codecs and players. To prevent resizing, make your input image divisible by the macro_block_size or set the macro_block_size to 1 (risking incompatibility).
+2025-07-22 15:25:28,798 [INFO] 127.0.0.1:50874 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:25:45,972 [INFO] Received file: 73300_9108.jpg
+2025-07-22 15:25:46,767 [INFO] PID=62195 filename=73300_9108.jpg result: ['Классы не обнаружены']
+2025-07-22 15:25:59,059 [INFO] 127.0.0.1:50881 - "POST /predict HTTP/1.1" 200
+2025-07-22 15:26:06,784 [INFO] Shutting down
+2025-07-22 15:26:06,887 [INFO] Waiting for application shutdown.
+2025-07-22 15:26:07,682 [INFO] Process pool shutdown
+2025-07-22 15:26:07,683 [INFO] Application shutdown complete.
+2025-07-22 15:26:07,684 [INFO] Finished server process [62185]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Detection UI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="page-header">
+    <h1>Загрузите изображение или короткое видео</h1>
+  </div>
+
+  <form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Отправить</button>
+  </form>
+
+  {% if results %}
+    <h2>Результат:</h2>
+
+    {% if video_data %}
+      <video controls width="640">
+        <source src="data:video/mp4;base64,{{ video_data }}" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+      </video>
+      <p><strong>Обнаружено:</strong> {{ results | join(', ') }}</p>
+
+    {% elif image_data %}
+      <img id="output" src="data:image/jpeg;base64,{{ image_data }}">
+      <p><strong>Обнаружено:</strong> {{ results | join(', ') }}</p>
+
+    {% else %}
+      <p style="color: crimson;"><strong>{{ results }}</strong></p>
+    {% endif %}
+
+  {% endif %}
+</body>
+</html>
