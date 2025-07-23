@@ -4,5 +4,3 @@ yolov8s/
 test.py
 uploads/
 *.pt
-*.mp4
-runs/
