@@ -80,3 +80,22 @@
 2025-07-22 15:26:07,682 [INFO] Process pool shutdown
 2025-07-22 15:26:07,683 [INFO] Application shutdown complete.
 2025-07-22 15:26:07,684 [INFO] Finished server process [62185]
+2025-07-23 10:11:33,376 [INFO] Started server process [77013]
+2025-07-23 10:11:33,376 [INFO] Waiting for application startup.
+2025-07-23 10:11:33,377 [INFO] Server starting...
+2025-07-23 10:11:33,391 [INFO] Model compilation within worker processes started...
+2025-07-23 10:11:33,445 [INFO] Application startup complete.
+2025-07-23 10:11:33,448 [INFO] Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-07-23 10:11:43,843 [INFO] 127.0.0.1:54837 - "GET / HTTP/1.1" 200
+2025-07-23 10:11:43,888 [INFO] 127.0.0.1:54837 - "GET /static/style.css HTTP/1.1" 304
+2025-07-23 10:12:56,511 [INFO] Received file: knife.webp
+2025-07-23 10:13:01,313 [INFO] PID=77022 filename=knife.webp result: ['- Knife с уверенностью 0.49', '- Handgun с уверенностью 0.27']
+2025-07-23 10:13:01,338 [INFO] 127.0.0.1:54845 - "POST /predict HTTP/1.1" 200
+2025-07-23 10:13:16,130 [INFO] Received file: gun3.jpeg
+2025-07-23 10:13:20,265 [INFO] PID=77024 filename=gun3.jpeg result: ['- Handgun с уверенностью 0.94']
+2025-07-23 10:13:20,270 [INFO] 127.0.0.1:54846 - "POST /predict HTTP/1.1" 200
+2025-07-23 10:22:17,516 [INFO] Shutting down
+2025-07-23 10:22:17,620 [INFO] Waiting for application shutdown.
+2025-07-23 10:22:18,689 [INFO] Process pool shutdown
+2025-07-23 10:22:18,692 [INFO] Application shutdown complete.
+2025-07-23 10:22:18,692 [INFO] Finished server process [77013]
